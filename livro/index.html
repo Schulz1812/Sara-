@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>livro</title>
+</head>
+<!--Crie uma página que receba como entrada o nome de um livro, o autor, o número
+de páginas e o país de lancamento
+-Crie um botão escrito: Gerar div com livro
+-Gere uma div com as seguintes configurações:
+*titulo sendo um elemento h2
+*nome do autor sendo um h3
+*numero de páginas e o país com elemento p
+Sempre que o usuário clicar em Gerar div com livro, o único livro que deve 
+aparecer é o atual-->
+<body>
+    <input type="text" id="nome-livro"    placeholder="nome do livro">
+    <input type="text" id="nome-autor"    placeholder="nome do autor">
+    <input type="number" id="numero-paginas"    placeholder="numero paginas">
+    <input type="text" id="pais-lancamento"    placeholder="país de lancamento">
+    <button id="gerar-livro"></button>
+
+    <div id="conteudo">
+        <h2 id="nome"></h2>
+        <h3 id="autor"></h3>
+        <p id="paginas"></p>
+        <p id="oais"></p>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+</html>
